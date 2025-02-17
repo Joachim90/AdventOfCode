@@ -43,7 +43,7 @@ public class day3 {
             }
         }
         System.out.println("hej");
-        System.out.println("epsilon: " + epsilon.toString());
+        System.out.println("epsilon: " + epsilon);
 
 
 
