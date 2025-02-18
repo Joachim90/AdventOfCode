@@ -13,7 +13,7 @@ public class day3 {
         StringBuilder gamma = new StringBuilder();
         StringBuilder epsilon = new StringBuilder();
 
-
+//testa lös med groupingBy :)
 
         for (int i = 0; i < input.getFirst().length() ; i++) {
             int countOnes = 0;
@@ -33,7 +33,7 @@ public class day3 {
             }
         }
 
-        System.out.println("gamma: "+gamma.toString());
+        System.out.println("gamma: "+gamma);
 
         for (int i = 0 ; i < gamma.length() ; i++) {
             if (gamma.charAt(i) == '1'){
@@ -42,12 +42,8 @@ public class day3 {
                 epsilon.append("1");
             }
         }
-        System.out.println("hej");
+
         System.out.println("epsilon: " + epsilon);
-
-
-
-
 
 
         int dec = Integer.parseInt(gamma.toString(), 2);
