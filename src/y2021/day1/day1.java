@@ -10,7 +10,7 @@ import java.util.stream.IntStream;
 
 public class day1 {
     public static void main(String[] args) throws IOException {
-        List<Integer> input = Files.lines(Path.of("src/y2021/day1/inputDay1")).map(Integer::parseInt).toList();
+        List<Integer> input = Files.lines(Path.of("src/inputs/2021inputday1")).map(Integer::parseInt).toList();
 
 
         long increasesDayOne = IntStream.range(0, input.size() - 1).filter(i -> input.get(i) < input.get(i+1)).count();

@@ -51,6 +51,7 @@ public class day2part2 {
                 safeSteps++;
             }
         }
+
         if (safeSteps == list.size() -1){
             return true;
         }

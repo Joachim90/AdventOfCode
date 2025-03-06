@@ -8,7 +8,7 @@ import java.util.List;
 
 public class day2 {
     public static void main(String[] args) throws IOException {
-        List<String> input = Files.lines(Path.of("src/y2021/day2/inputDay2")).toList();
+        List<String> input = Files.lines(Path.of("src/inputs/2021inputday2")).toList();
 
         int up = input.stream().filter(s -> s.charAt(0) == 'u').mapToInt(s-> Integer.parseInt(s.substring(3))).sum();
         int down = input.stream().filter(s -> s.charAt(0) == 'd').mapToInt(s-> Integer.parseInt(s.substring(5))).sum();

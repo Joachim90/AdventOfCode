@@ -8,7 +8,7 @@ import java.util.List;
 
 public class day3 {
     public static void main(String[] args) throws IOException {
-        List<String> input = Files.lines(Path.of("src/y2021/day3/inputDay3")).toList();
+        List<String> input = Files.lines(Path.of("src/inputs/2021inputday3")).toList();
 
         StringBuilder gamma = new StringBuilder();
         StringBuilder epsilon = new StringBuilder();
